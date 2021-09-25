@@ -263,7 +263,7 @@ html,
   align-items: center;
 }
 .box2 {
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 85%;
     float: right;
     background: turquoise ;
@@ -274,22 +274,38 @@ html,
     font-family: arial;
     position: relative;
     border-radius: 20px;
+    transition: margin-top .4s ease;
     
   }
-  .set{
-    margin: 50px auto;
-    padding: 50px
+
+  .box2:hover {
     
-    
-  }
-  .set:hover{
-      margin-top: 30px ;
-  }
- small{
-     color: rgb(190, 190, 190);
- }
-  .box1 {
     margin-top: 20px;
+    
+
+}
+  .set{
+    margin: 20px auto;
+    padding: 50px 0 50px 0;
+    position: static;
+    
+    
+  }
+  
+ .small1{
+     color: rgb(190, 190, 190);
+     text-align: end;
+     font-size: 11px;
+     
+     
+ }
+ .small2{
+  color: rgb(190, 190, 190);
+  text-align: start;
+  font-size: 11px;
+}
+  .box1 {
+    margin-top: 0px;
     max-width: 85%;
     float: left;
     background: rgb(219, 219, 219) ;
@@ -300,8 +316,12 @@ html,
     font-family: arial;
     position: relative;
     border-radius: 20px;
+    transition: margin-top .4s;
     
   }
+  .box1:hover{
+    margin-top: 20px ;
+}
   
 .sb3:before {
     content: "";
