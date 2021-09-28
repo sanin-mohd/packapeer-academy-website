@@ -1,169 +1,144 @@
-body{
-    line-height: 1.7;
-    color: rgb(0, 0, 0);
-    font-weight: 300;
-    font-size: 1rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.heading{
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 2%;
-    height: 100px;
-    width: 100%;
-    
+body {
+  line-height: 1.7;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
 }
-.green-dot{
-    color: rgb(32, 255, 255);
-    font-size: larger;
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2%;
+  height: 100px;
+  width: 100%;
 }
-.sps{
-    width: 635px;
-    height: 356px;
-    padding-left: 80px;
-    padding-top: 20px;
-    cursor: pointer;
+.green-dot {
+  color: rgb(32, 255, 255);
+  font-size: larger;
 }
-.heading1{
-    text-align: start;
-    font-weight: bolder;
-    font-size: 35px ;
-    width: 70%;
-    font-family: Montserrat;
+.sps {
 }
-.video{
-    padding-left: 10%;
-    padding-top: 2%;
+.heading1 {
+  text-align: start;
+  font-weight: bolder;
+  font-size: 35px;
+  width: 70%;
+  font-family: Montserrat;
 }
-.content1{
-    padding-top: 15%; 
-    font-size: medium;
-    font-family: Montserrat;
-    font-weight: bolder;
-    color: black;
-    
+.video {
+  padding-left: 10%;
+  padding-top: 2%;
 }
-.btn-size{
-    width: 150px;
-    height: 50px;
-    border-width: 2px;
-    font-size: 16px;
-    border-radius: 30px;
-    box-shadow: 10px 10px #00d2b5;
-    
-
+.content1 {
+  padding-top: 15%;
+  font-size: medium;
+  font-family: Montserrat;
+  font-weight: bolder;
+  color: black;
 }
-.btn-prop{
-    background-color:#00d2b5;
-    width: 150px;
-    height: 50px;
-    border-width: 0px;
-    font-size: 16px;
-    border-radius: 30px;
-    color: white;
-    transition: background .5s;
-    
-    
-
-
+.btn-size {
+  width: 150px;
+  height: 50px;
+  border-width: 2px;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: 10px 10px #00d2b5;
+}
+.btn-prop {
+  background-color: #00d2b5;
+  width: 150px;
+  height: 50px;
+  border-width: 0px;
+  font-size: 16px;
+  border-radius: 30px;
+  color: white;
+  transition: background 0.5s;
 }
 
- 
 .btn-prop:hover {
-    background: transparent;
-    border-color: #00d2b5;
-    color: black;
-    
-    border:2px solid #00d2b5;
-}
-.heading3{
-    
-    font-weight:bold;
-    font-size: 40px;
-    text-align: center;
-}
-.features-div{
-    align-items: center;
-    background: #f6f6f6 !important;
-}
-.heading3-content-style{
-    width: 350px;
-    height: 295px;
-    padding: 10px;
-   
-    
-}
-.feature1{
-    
-    
-    margin-top: 10px;
-    
-    height: 236px;
-    padding: 20px 10px 5px 20px;
-    width: 320px;
-    background-color: white;
-    transition: margin-top  .6s;
-    border-radius: 8px;
-   
-    
-}
-.feature1:hover{
-    background-color: turquoise;
-    color: white;
-    margin-top: 0px;
+  background: transparent;
+  border-color: #00d2b5;
+  color: black;
 
-    
+  border: 2px solid #00d2b5;
 }
-h{
-    font-size: 15px;
-    color: rgb(121, 121, 121);
+.heading3 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
 }
-h_{
-    font-size: 20px;
+.features-div {
+  align-items: center;
+  background: #f6f6f6 !important;
+  padding: 10px 10px 10px 10px;
 }
-.icon{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    border-radius: 50%;
-    background-color: turquoise;
+
+.feature1 {
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  transition: margin-top 0.6s;
+}
+.feature1:hover {
+  background-color: turquoise;
+  color: white;
+  
+}
+h {
+  font-size: 15px;
+  color: rgb(121, 121, 121);
+}
+h_ {
+  font-size: 20px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: turquoise;
 }
 .feature1:hover .icon {
-    background-color: white;
-    color:turquoise;
+  background-color: white;
+  color: turquoise;
+  margin: 0px;
 }
-.img2{
-    width: 635px;
-    height: 360px;
+.img2 {
+  width: 635px;
+  height: 360px;
 }
-.dis{
-    padding-left: 90px;
-    padding-right: 70px;
-    padding-top: 20px;
+.dis {
+  padding-left: 90px;
+  padding-right: 70px;
+  padding-top: 20px;
 }
-p{
-    color: rgb(168, 168, 168);
+p {
+  color: rgb(168, 168, 168);
 }
-.sections{
-    position: relative;
-    border-radius: 7px;
-    width: 100%;
-    height: 100px;
-    padding:20px;
-    transition: margin-top  .6s;
-    margin-top: 30px;
-    background-color: rgb(255, 255, 255);
+.sections {
+  position: relative;
+  border-radius: 7px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  transition: margin-top 0.6s;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
 }
-.sections:hover{
-    background-color: turquoise;
-    color: white;
-    margin-top: 15px;
+.sections:hover {
+  background-color: turquoise;
+  color: white;
+  margin-top: 15px;
 }
-.marg{
-    margin-top: 50px;
+.marg {
+  margin-top: 50px;
 }
 html,
-
-
 .blue-bg {
   background-color: #ffffff;
   color: black;
@@ -220,7 +195,7 @@ html,
   top: 17px;
   opacity: 1;
   position: relative;
-  color:turquoise ;
+  color: turquoise;
 }
 .timeline .col-2 {
   display: flex;
@@ -248,114 +223,103 @@ html,
   left: 50%;
   top: calc(50% - 3px);
 }
-.contact{
-    margin-top: 100px;
-    padding: 30px;
-    width: 100%;
+.contact {
+  margin-top: 100px;
+  padding: 30px;
+  width: 100%;
   max-height: 500px;
-  overflow: scroll;
-    
+  overflow-y: scroll;
 }
-.contact-details{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
+.contact1 {
+  margin-top: 100px;
+  padding: 30px;
+  width: 100%;
+  max-height: 500px;
+}
+.contact-details {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .box2 {
-    margin-top: 0px;
-    max-width: 85%;
-    float: right;
-    background: turquoise ;
-    padding: 20px;
-    text-align: right;
-    font-weight: 900;
-    color: #fff;
-    font-family: arial;
-    position: relative;
-    border-radius: 20px;
-    transition: margin-top .4s ease;
-    
-  }
-
-  .box2:hover {
-    
-    margin-top: 20px;
-    
-
+  margin-top: 0px;
+  max-width: 85%;
+  float: right;
+  background: turquoise;
+  padding: 20px;
+  text-align: right;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+  border-radius: 20px;
+  transition: margin-top 0.4s ease;
 }
-  .set{
-    margin: 20px auto;
-    padding: 50px 0 50px 0;
-    position: static;
-    
-    
-  }
-  
- .small1{
-     color: rgb(190, 190, 190);
-     text-align: end;
-     font-size: 11px;
-     
-     
- }
- .small2{
+
+.box2:hover {
+  margin-top: 20px;
+}
+.set {
+  margin: 20px auto;
+  padding: 50px 0 50px 0;
+  position: static;
+}
+
+.small1 {
+  color: rgb(190, 190, 190);
+  text-align: end;
+  font-size: 11px;
+}
+.small2 {
   color: rgb(190, 190, 190);
   text-align: start;
   font-size: 11px;
 }
-  .box1 {
-    margin-top: 0px;
-    max-width: 85%;
-    float: left;
-    background: rgb(219, 219, 219) ;
-    padding: 20px;
-    text-align: left;
-    font-weight: 900;
-    color: black;
-    font-family: arial;
-    position: relative;
-    border-radius: 20px;
-    transition: margin-top .4s;
-    
-  }
-  .box1:hover{
-    margin-top: 20px ;
+.box1 {
+  margin-top: 0px;
+  max-width: 85%;
+  float: left;
+  background: rgb(219, 219, 219);
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  color: black;
+  font-family: arial;
+  position: relative;
+  border-radius: 20px;
+  transition: margin-top 0.4s;
 }
-  
+.box1:hover {
+  margin-top: 20px;
+}
+
 .sb3:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 0px solid rgb(219, 219, 219);
-    border-bottom: 15px solid rgb(219, 219, 219);
-    left: -15px;
-    top: 37px;
-  }
-  
-  
-  /* speech bubble 14 */
-  
-  .sb4:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 0px solid turquoise;
-    border-bottom: 15px solid turquoise;
-    
-    right: -16px;
-    
-    top: 37px;
-  }
-  
-  
- 
-  
-  
-  
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 0px solid rgb(219, 219, 219);
+  border-bottom: 15px solid rgb(219, 219, 219);
+  left: -15px;
+  top: 37px;
+}
+
+/* speech bubble 14 */
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 0px solid turquoise;
+  border-bottom: 15px solid turquoise;
+
+  right: -16px;
+
+  top: 37px;
+}
